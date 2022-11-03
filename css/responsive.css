@@ -1,8 +1,26 @@
 /* header */
+@media screen and (min-height:350px) {
+    .img-menu{
+        width: 100%;
+        height: 81vh;
+    }
+}
+@media screen and (max-height:349px) and (min-width:290px) {
+    .img-menu{
+        width: 100%;
+        height: 100vh;
+    }
+}
+@media screen and (max-height:289px) and (min-width:200px) {
+    .img-menu{
+        width: 100%;
+        height: 150vh;
+    }
+}
 @media screen and (max-width:946px) and (min-width:350px) {
     .container-header{
         grid-template-columns: 100%;
-        margin-bottom: 490px;
+        margin-bottom: 480px;
     } 
 }
 @media screen and (min-width:947px) {
