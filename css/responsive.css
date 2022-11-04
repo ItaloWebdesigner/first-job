@@ -1,48 +1,35 @@
 /* header */
-@media screen and (min-height:350px) {
+@media screen and (min-width:450px) {
     .img-menu{
-        width: 100%;
-        height: 81vh;
+        height: 529px;
     }
 }
-@media screen and (max-height:349px) and (min-width:290px) {
+@media screen and (max-width:449px) and (min-width:370px) {
     .img-menu{
-        width: 100%;
-        height: 100vh;
+        height: 429px;
     }
 }
-@media screen and (max-height:289px) and (min-width:200px) {
+@media screen and (max-width:369px) and (min-width:300px) {
     .img-menu{
-        width: 100%;
-        height: 150vh;
+        height: 390px;
     }
-}
-@media screen and (max-width:946px) and (min-width:350px) {
-    .container-header{
-        grid-template-columns: 100%;
-        margin-bottom: 480px;
-    } 
 }
 @media screen and (min-width:947px) {
     .container-header{
         grid-template-columns: 60% 40%;
+        height: 85vh;
     }
     .container-header .info{
-        padding: 6% 2% 0% 2%;
-    }
-    .container-header{
-        height: 81vh;
+        padding: 5% 2% 6% 2%;
     }
 }
 @media screen and (max-width:946px) and (min-width:350px) {
     .container-header{
         grid-template-columns: 100%;
+        height: 90vh;
     } 
     .container-header .info{
-        padding: 6% 2% 10% 2%;
-    }
-    .container-header{
-        height: 93vh;
+        padding: 5% 2% 6% 2%;
     }
 }
 @media screen and (max-width:349px) and (min-width:300px) {
